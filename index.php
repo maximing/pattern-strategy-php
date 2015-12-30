@@ -17,44 +17,24 @@ require_once('SpearMan.php');
 
 $warrior = new SwordMan();
 echo $warrior->talk();
-nextLine();
 echo $warrior->attack();
-nextLine();
 $warrior->setWeapon(new Bow());
 echo $warrior->attack();
-nextLine();
 $warrior->setWeapon(new Spear());
 echo $warrior->attack();
-nextLine();
-nextLine();
 
 $warrior = new BowMan();
 echo $warrior->talk();
-nextLine();
 echo $warrior->attack();
-nextLine();
 $warrior->setWeapon(new Sword());
 echo $warrior->attack();
-nextLine();
 $warrior->setWeapon(new Spear());
 echo $warrior->attack();
-nextLine();
-nextLine();
 
 $warrior = new SpearMan();
 echo $warrior->talk();
-nextLine();
 echo $warrior->attack();
-nextLine();
 $warrior->setWeapon(new Sword());
 echo $warrior->attack();
-nextLine();
 $warrior->setWeapon(new Bow());
 echo $warrior->attack();
-nextLine();
-nextLine();
-
-
-function nextLine() {
-    echo '<br>';
-}
