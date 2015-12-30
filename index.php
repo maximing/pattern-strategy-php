@@ -25,6 +25,13 @@ $warrior->setWeapon(new Bow());
 echo $warrior->attack();
 $warrior->setWeapon(new Spear());
 echo $warrior->attack();
+/*
+Итог:
+Мечник атакует
+1000
+300
+1500
+*/
 
 $warrior = new BowMan();
 echo $warrior->talk();
@@ -33,6 +40,13 @@ $warrior->setWeapon(new Sword());
 echo $warrior->attack();
 $warrior->setWeapon(new Spear());
 echo $warrior->attack();
+/*
+Итог:
+Лучник атакует
+300
+1000
+1500
+*/
 
 $warrior = new SpearMan();
 echo $warrior->talk();
@@ -41,3 +55,10 @@ $warrior->setWeapon(new Sword());
 echo $warrior->attack();
 $warrior->setWeapon(new Bow());
 echo $warrior->attack();
+/*
+Итог:
+Копейщик атакует
+1500
+1000
+300
+*/

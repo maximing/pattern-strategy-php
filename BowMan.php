@@ -11,6 +11,6 @@ class BowMan extends Warrior
 
     public function talk()
     {
-        return 'Bowman attacks';
+        return 'Лучник атакует';
     }
 }

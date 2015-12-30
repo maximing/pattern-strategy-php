@@ -11,6 +11,6 @@ class SwordMan extends Warrior
 
     public function talk()
     {
-        return 'Swordman attacks';
+        return 'Мечник атакует';
     }
 }

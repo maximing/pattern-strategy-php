@@ -11,6 +11,6 @@ class SpearMan extends Warrior
 
     public function talk()
     {
-        return 'Spearman attacks';
+        return 'Копейщик атакует';
     }
 }
