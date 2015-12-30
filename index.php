@@ -1,10 +1,13 @@
 <?php
-use Strategy\SwordMan;
-use Strategy\BowMan;
-use Strategy\SpearMan;
-use Strategy\Bow;
-use Strategy\Spear;
-use Strategy\Sword;
+use Strategy\ {
+    Spear,
+    Sword,
+    Bow,
+    SwordMan,
+    SpearMan,
+    BowMan
+};
+
 require_once('IWeapon.php');
 require_once('Warrior.php');
 require_once('Weapon.php');
